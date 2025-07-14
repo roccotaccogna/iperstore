@@ -1,4 +1,18 @@
-import { Link } from "react-router-dom" // Usa Link da react-router-dom
+import { Link } from "react-router-dom"
+import mele from "../images/mele.jpg"
+import lattuga from "../images/lattuga.jpg"
+import biscotto from "../images/biscotto.jpg"
+import latte from "../images/latte.jpg"
+import shampoo from "../images/shampoo.jpg"
+import coca from "../images/cocacola.jpg"
+import birra from "../images/birra.jpg"
+import vinoRosso from "../images/vinoRosso.jpg"
+import pane from "../images/pane.jpg"
+import mozzarella from "../images/mozzarella.jpg"
+import salmone from "../images/salmone.jpg"
+import salsiccia from "../images/salsiccia.jpg"
+import olio from "../images/olio.jpg"
+import detersivo from "../images/detersivo.jpg"
 
 interface CategoryCardProps {
   categoryName: string
@@ -9,33 +23,33 @@ const getCategoryImageUrl = (category: string) => {
   // *** IMPORTANTE: Inserisci qui i percorsi delle tue immagini reali ***
   switch (category) {
     case "Frutta":
-      return "/public/images/mele.jpg"
+      return mele
     case "Verdura":
-      return "/public/images/lattuga.jpg" 
+      return lattuga
     case "Biscotti":
-      return "/public/images/biscotto.jpg"
+      return biscotto
     case "Latte":
-      return "/public/images/latte.jpg"
+      return latte
     case "Cura Personale":
-      return "/public/images/shampoo.jpg"
+      return shampoo
     case "Bibite":
-      return "/public/images/cocacola.jpg"
+      return coca
     case "Birre":
-      return "/public/images/birra.jpg"
+      return birra
     case "Vino":
-      return "/public/images/vinoRosso.jpg"
+      return vinoRosso
     case "Panetteria":
-      return "/public/images/pane.jpg"
+      return pane
     case "Latticini":
-      return "/public/images/mozzarellaNodini.jpg"
+      return mozzarella
     case "Pesce":
-      return "/public/images/salmone.jpg"
+      return salmone
     case "Carne":
-      return "/public/images/salsiccia.jpg"
+      return salsiccia
     case "Dispensa":
-      return "/public/images/olio.jpg"
+      return olio
     case "Pulizia Casa":
-      return "/public/images/detersivo.jpg"
+      return detersivo
     default:
       return `/placeholder.svg?height=200&width=200&text=${encodeURIComponent(category)}`
   }
