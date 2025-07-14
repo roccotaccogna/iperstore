@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import 'react-confirm-alert/src/react-confirm-alert.css';
+
+/* Custom CSS per nascondere la scrollbar su elementi con overflow-x-auto */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
