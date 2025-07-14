@@ -6,7 +6,7 @@ export const products: Product[] = [
     name: "Mele Rosse",
     price: 2.5,
     unit: "kg",
-    image: "/src/images/mele.jpg",
+    image: "/public/images/mele.jpg",
     category: "Frutta",
   },
   {
@@ -14,7 +14,7 @@ export const products: Product[] = [
     name: "Banane",
     price: 1.8,
     unit: "kg",
-    image: "/src/images/banana.jpg",
+    image: "/public/images/banana.jpg",
     category: "Frutta",
   },
   {
@@ -22,7 +22,7 @@ export const products: Product[] = [
     name: "Arance Navel",
     price: 2.2,
     unit: "kg",
-    image: "/src/images/arance.jpg",
+    image: "/public/images/arance.jpg",
     category: "Frutta",
   },
   {
@@ -30,7 +30,7 @@ export const products: Product[] = [
     name: "Lattuga Romana",
     price: 1.2,
     unit: "pezzo",
-    image: "/src/images/lattuga.jpg",
+    image: "/public/images/lattuga.jpg",
     category: "Verdura",
   },
   {
@@ -38,7 +38,7 @@ export const products: Product[] = [
     name: "Pomodori Ciliegino",
     price: 3.0,
     unit: "kg",
-    image: "/src/images/pomodori.jpg",
+    image: "/public/images/pomodori.jpg",
     category: "Verdura",
   },
   {
@@ -46,7 +46,7 @@ export const products: Product[] = [
     name: "Zucchine",
     price: 1.9,
     unit: "kg",
-    image: "/src/images/zucchine.jpg",
+    image: "/public/images/zucchine.jpg",
     category: "Verdura",
   },
   {
@@ -54,7 +54,7 @@ export const products: Product[] = [
     name: "Biscotti al Cioccolato",
     price: 2.99,
     unit: "confezione",
-    image: "/src/images/biscotto.jpg",
+    image: "/public/images/biscotto.jpg",
     category: "Biscotti",
   },
   {
@@ -62,7 +62,7 @@ export const products: Product[] = [
     name: "Frollini Classici",
     price: 1.85,
     unit: "confezione",
-    image: "/src/images/frollini.jpg",
+    image: "/public/images/frollini.jpg",
     category: "Biscotti",
   },
   {
@@ -70,7 +70,7 @@ export const products: Product[] = [
     name: "Latte Fresco Intero",
     price: 1.1,
     unit: "litro",
-    image: "/src/images/latte.jpg",
+    image: "/public/images/latte.jpg",
     category: "Latte",
   },
   {
@@ -78,7 +78,7 @@ export const products: Product[] = [
     name: "Latte Parzialmente Scremato UHT",
     price: 0.95,
     unit: "litro",
-    image: "/src/images/latteP.jpg",
+    image: "/public/images/latteP.jpg",
     category: "Latte",
   },
   {
@@ -86,7 +86,7 @@ export const products: Product[] = [
     name: "Shampoo Delicato",
     price: 4.5,
     unit: "flacone",
-    image: "/src/images/shampoo.jpg",
+    image: "/public/images/shampoo.jpg",
     category: "Cura Personale",
   },
   {
@@ -94,7 +94,7 @@ export const products: Product[] = [
     name: "Dentifricio Menta Fresca",
     price: 2.75,
     unit: "tubetto",
-    image: "/src/images/dentifricio.jpg",
+    image: "/public/images/dentifricio.jpg",
     category: "Cura Personale",
   },
   {
@@ -102,7 +102,7 @@ export const products: Product[] = [
     name: "Acqua Naturale",
     price: 0.5,
     unit: "bottiglia",
-    image: "/src/images/acqua.jpg",
+    image: "/public/images/acqua.jpg",
     category: "Bibite",
   },
   {
@@ -110,7 +110,7 @@ export const products: Product[] = [
     name: "Coca-Cola",
     price: 1.5,
     unit: "lattina",
-    image: "/src/images/cocacola.jpg",
+    image: "/public/images/cocacola.jpg",
     category: "Bibite",
   },
   {
@@ -118,7 +118,7 @@ export const products: Product[] = [
     name: "Succo d'Arancia",
     price: 1.99,
     unit: "litro",
-    image: "/src/images/succo.jpg",
+    image: "/public/images/succo.jpg",
     category: "Bibite",
   },
   {
@@ -126,7 +126,7 @@ export const products: Product[] = [
     name: "Birra Artigianale IPA",
     price: 3.8,
     unit: "bottiglia",
-    image: "/src/images/birraA.jpg",
+    image: "/public/images/birraA.jpg",
     category: "Birre",
   },
   {
@@ -134,7 +134,7 @@ export const products: Product[] = [
     name: "Birra Lager Classica",
     price: 1.2,
     unit: "bottiglia",
-    image: "/src/images/birra.jpg",
+    image: "/public/images/birra.jpg",
     category: "Birre",
   },
   {
@@ -142,7 +142,7 @@ export const products: Product[] = [
     name: "Vino Rosso Chianti",
     price: 8.99,
     unit: "bottiglia",
-    image: "/src/images/vinoRosso.jpg",
+    image: "/public/images/vinoRosso.jpg",
     category: "Vino",
   },
   {
@@ -150,7 +150,7 @@ export const products: Product[] = [
     name: "Vino Bianco Vermentino",
     price: 7.5,
     unit: "bottiglia",
-    image: "/src/images/vinoBianco.jpg",
+    image: "/public/images/vinoBianco.jpg",
     category: "Vino",
   },
   {
@@ -158,7 +158,7 @@ export const products: Product[] = [
     name: "Pane Casereccio",
     price: 3.2,
     unit: "pezzo",
-    image: "/src/images/pane.jpg",
+    image: "/public/images/pane.jpg",
     category: "Panetteria",
   },
   {
@@ -166,7 +166,7 @@ export const products: Product[] = [
     name: "Cornetti Vuoti",
     price: 0.8,
     unit: "pezzo",
-    image: "/src/images/cornetti.jpg",
+    image: "/public/images/cornetti.jpg",
     category: "Panetteria",
   },
   {
@@ -174,7 +174,7 @@ export const products: Product[] = [
     name: "Formaggio Parmigiano",
     price: 12.0,
     unit: "kg",
-    image: "/src/images/formaggio.jpg",
+    image: "/public/images/formaggio.jpg",
     category: "Latticini",
   },
   {
@@ -182,7 +182,7 @@ export const products: Product[] = [
     name: "Mozzarella di Bufala",
     price: 3.5,
     unit: "confezione",
-    image: "/src/images/mozzarella.jpg",
+    image: "/public/images/mozzarella.jpg",
     category: "Latticini",
   },
   {
@@ -190,7 +190,7 @@ export const products: Product[] = [
     name: "Salmone Fresco",
     price: 18.5,
     unit: "kg",
-    image: "/src/images/salmone.jpg",
+    image: "/public/images/salmone.jpg",
     category: "Pesce",
   },
   {
@@ -198,7 +198,7 @@ export const products: Product[] = [
     name: "Gamberi Sgusciati",
     price: 15.0,
     unit: "confezione",
-    image: "/src/images/gambero.jpg",
+    image: "/public/images/gambero.jpg",
     category: "Pesce",
   },
   {
@@ -206,7 +206,7 @@ export const products: Product[] = [
     name: "Petto di Pollo",
     price: 9.5,
     unit: "kg",
-    image: "/src/images/pettoPollo.jpg",
+    image: "/public/images/pettoPollo.jpg",
     category: "Carne",
   },
   {
@@ -214,7 +214,7 @@ export const products: Product[] = [
     name: "Salsiccia Fresca",
     price: 7.0,
     unit: "kg",
-    image: "/src/images/salsiccia.jpg",
+    image: "/public/images/salsiccia.jpg",
     category: "Carne",
   },
   {
@@ -222,7 +222,7 @@ export const products: Product[] = [
     name: "Pasta di Grano Duro",
     price: 0.9,
     unit: "confezione",
-    image: "/src/images/pasta.jpg",
+    image: "/public/images/pasta.jpg",
     category: "Dispensa",
   },
   {
@@ -230,7 +230,7 @@ export const products: Product[] = [
     name: "Olio Extra Vergine d'Oliva",
     price: 6.5,
     unit: "litro",
-    image: "/src/images/olio.jpg",
+    image: "/public/images/olio.jpg",
     category: "Dispensa",
   },
   {
@@ -238,7 +238,7 @@ export const products: Product[] = [
     name: "Detersivo Lavatrice",
     price: 5.99,
     unit: "flacone",
-    image: "/src/images/detersivo.jpg",
+    image: "/public/images/detersivo.jpg",
     category: "Pulizia Casa",
   },
 ]

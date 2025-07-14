@@ -9,33 +9,33 @@ const getCategoryImageUrl = (category: string) => {
   // *** IMPORTANTE: Inserisci qui i percorsi delle tue immagini reali ***
   switch (category) {
     case "Frutta":
-      return "/src/images/mele.jpg"
+      return "/public/images/mele.jpg"
     case "Verdura":
-      return "/src/images/lattuga.jpg" 
+      return "/public/images/lattuga.jpg" 
     case "Biscotti":
-      return "/src/images/biscotto.jpg"
+      return "/public/images/biscotto.jpg"
     case "Latte":
-      return "/src/images/latte.jpg"
+      return "/public/images/latte.jpg"
     case "Cura Personale":
-      return "/src/images/shampoo.jpg"
+      return "/public/images/shampoo.jpg"
     case "Bibite":
-      return "/src/images/cocacola.jpg"
+      return "/public/images/cocacola.jpg"
     case "Birre":
-      return "/src/images/birra.jpg"
+      return "/public/images/birra.jpg"
     case "Vino":
-      return "/src/images/vinoRosso.jpg"
+      return "/public/images/vinoRosso.jpg"
     case "Panetteria":
-      return "/src/images/pane.jpg"
+      return "/public/images/pane.jpg"
     case "Latticini":
-      return "/src/images/mozzarellaNodini.jpg"
+      return "/public/images/mozzarellaNodini.jpg"
     case "Pesce":
-      return "/src/images/salmone.jpg"
+      return "/public/images/salmone.jpg"
     case "Carne":
-      return "/src/images/salsiccia.jpg"
+      return "/public/images/salsiccia.jpg"
     case "Dispensa":
-      return "/src/images/olio.jpg"
+      return "/public/images/olio.jpg"
     case "Pulizia Casa":
-      return "/src/images/detersivo.jpg"
+      return "/public/images/detersivo.jpg"
     default:
       return `/placeholder.svg?height=200&width=200&text=${encodeURIComponent(category)}`
   }
