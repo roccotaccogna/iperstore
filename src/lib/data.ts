@@ -1,4 +1,5 @@
 import type { Product } from "./types"
+import mele from "../images/mele.jpg"
 
 export const products: Product[] = [
   {
@@ -6,7 +7,7 @@ export const products: Product[] = [
     name: "Mele Rosse",
     price: 2.5,
     unit: "kg",
-    image: "/public/images/mele.jpg",
+    image: mele,
     category: "Frutta",
   },
   {
